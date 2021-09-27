@@ -13,7 +13,7 @@ import (
 var addr = flag.String("addr", "localhost:8080", "http service address")
 var maxPlayers = flag.Int("maxPlayers", 10, "maximum number of players in room")
 var maxScore = flag.Int("maxScore", 10, "maximum score for player")
-var timeoutMultiplier = flag.Int("timeoutMultiplier", 1, "maximum score for player")
+var timeoutMultiplier = flag.Int("timeoutMultiplier", 1, "timeout multiplier for debugging")
 
 //go:embed web
 var webFS embed.FS
